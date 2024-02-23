@@ -8,6 +8,7 @@ namespace Mission06_Ward.Models
         { 
         }
 
-        public DbSet<Application> Submissions { get; set; }
+        public DbSet<Application> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
